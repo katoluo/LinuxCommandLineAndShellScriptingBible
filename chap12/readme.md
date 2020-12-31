@@ -405,7 +405,7 @@ fi
 
 ​	使用 test 命令最常见的情形是对两个数值进行比较。表12-1列出了测试两个值时可用的条件参数。
 
-![表12-1]()
+![表12-1](https://github.com/katoluo/LinuxCommandLineAndShellScriptingBible/raw/master/chap12/images/%E8%A1%A812-1.png)
 
 ​	数值条件测试可以用在数字和变量上。这里有个例子。
 
@@ -472,7 +472,7 @@ $
 
 ​	条件测试还允许比较字符串值。比较字符串比较烦琐,你马上就会看到。表12-2列出了可用的字符串比较功能。
 
-![表12-2]()
+![表12-2](https://github.com/katoluo/LinuxCommandLineAndShellScriptingBible/raw/master/chap12/images/%E8%A1%A812-2.png)
 
 ​	下面几节将会详细介绍不同的字符串比较功能。
 
@@ -661,7 +661,7 @@ if [ -z $val3 ] # 判断 val3 变量是否长度为0。这个变量并未在shel
 
 ​	最后一类比较测试很有可能是shell编程中最为强大、也是用得最多的比较形式。它允许你测试Linux文件系统上文件和目录的状态。表12-3列出了这些比较。
 
-![表12-3]()
+![表12-3](https://github.com/katoluo/LinuxCommandLineAndShellScriptingBible/raw/master/chap12/images/%E8%A1%A812-3.png)
 
 ​	这些测试条件使你能够在shell脚本中检查文件系统中的文件。它们经常出现在需要进行文件访问的脚本中。鉴于其使用广泛,我们来逐个看看。
 
@@ -1084,7 +1084,7 @@ $
 
 ​	expression 可以是任意的数学赋值或比较表达式。除了 test 命令使用的标准数学运算符,表12-4列出了双括号命令中会用到的其他运算符。
 
-![表12-4]()
+![表12-4](https://github.com/katoluo/LinuxCommandLineAndShellScriptingBible/raw/master/chap12/images/%E8%A1%A812-4.png)
 
 ​	可以在 if 语句中用双括号命令,也可以在脚本中的普通命令里使用来赋值。
 
