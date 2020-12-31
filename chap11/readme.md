@@ -539,7 +539,7 @@ $ expr 1 + 5
 
 ​	expr 命令能够识别少数的数学和字符串操作符,见表11-1。
 
-![表11-1]()
+![表11-1](https://github.com/katoluo/LinuxCommandLineAndShellScriptingBible/raw/master/chap11/images/%E8%A1%A811-1.png)
 
 ​	尽管标准操作符在 expr 命令中工作得很好,但在脚本或命令行上使用它们时仍有问题出现。许多 expr 命令操作符在shell中另有含义(比如星号)。当它们出现在在 expr 命令中时,会得到一些诡异的结果。
 
@@ -841,7 +841,7 @@ $
 
 ​	无效命令会返回一个退出状态码 127 。 Linux错误退出状态码没有什么标准可循,但有一些可用的参考,如表11-2所示。
 
-![表11-2]()
+![表11-2](https://github.com/katoluo/LinuxCommandLineAndShellScriptingBible/raw/master/chap11/images/%E8%A1%A811-2.png)
 
 ​	退出状态码 126 表明用户没有执行命令的正确权限。
 
