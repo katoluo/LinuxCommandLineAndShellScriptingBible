@@ -344,7 +344,7 @@ drwx------. 2 root root 16384 Jun 11 09:53 lost+found
 
 ​	fsck 命令使用/etc/fstab文件来自动决定正常挂载到系统上的存储设备的文件系统。如果存储设备尚未挂载(比如你刚刚在新的存储设备上创建了个文件系统)，你需要用 -t 命令行选项来指定文件系统类型。表8-4列出了其他可用的命令行选项。
 
-![表8-4.png]()
+![表8-4.png](https://github.com/katoluo/LinuxCommandLineAndShellScriptingBible/raw/master/chap08/images/%E8%A1%A88-4.png)
 
 ​	你可能注意到了,有些命令行选项是重复的。这是为多个命令实现通用的前端带来的部分问题。有些文件系统修复命令有一些额外的可用选项。如果要做更高级的错误检查,就需要查看这个文件系统修复工具的手册页面来确定是不是有该文件系统专用的扩展选项。
 
@@ -374,7 +374,7 @@ drwx------. 2 root root 16384 Jun 11 09:53 lost+found
 
 ​	图8-1显示了典型Linux逻辑卷管理环境的基本布局。
 
-![图8-1.png]()
+![图8-1.png](https://github.com/katoluo/LinuxCommandLineAndShellScriptingBible/raw/master/chap08/images/%E5%9B%BE8-1.png)
 
 ​	图8-1中的卷组横跨了三个不同的物理硬盘,覆盖了五个独立的物理分区。在卷组内部有两个独立的逻辑卷。Linux系统将每个逻辑卷视为一个物理分区。每个逻辑卷可以被格式化成ext4文件系统,然后挂载到虚拟目录中某个特定位置。
 
@@ -517,7 +517,7 @@ $
 
 ​	要创建逻辑卷,使用 lvcreate 命令。虽然你通常不需要在其他Linux LVM命令中使用命令行选项,但 lvcreate 命令要求至少输入一些选项。表8-5显示了可用的命令行选项。
 
-![表8-5]()
+![表8-5](https://github.com/katoluo/LinuxCommandLineAndShellScriptingBible/raw/master/chap08/images/%E8%A1%A88-5.png)
 
 ​	虽然命令行选项看起来可能有点吓人,但大多数情况下你用到的只是少数几个选项。
 
@@ -615,7 +615,7 @@ $
 
 ​	如果你无法通过一个很炫的图形化界面来管理你的Linux LVM环境,也不是什么都干不了。在本章中你已经看到了一些Linux LVM命令行程序的实际用法。还有一些其他的命令可以用来管理LVM的设置。表8-6列出了在Linux LVM包中的常见命令。
 
-![表8-6]()
+![表8-6](https://github.com/katoluo/LinuxCommandLineAndShellScriptingBible/raw/master/chap08/images/%E8%A1%A88-6.png)
 
 ​	通过使用这些命令行程序,就能完全控制你的Linux LVM环境。
 
